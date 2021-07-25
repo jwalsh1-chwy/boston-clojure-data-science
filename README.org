@@ -4,6 +4,67 @@
 
 - https://github.com/scicloj
 
-** Project
+*** Libraries
+
+- https://github.com/scicloj/notespace
+- https://github.com/scicloj/tablecloth
+- https://github.com/techascent/tech.datatype
+- https://github.com/jsa-aerial/hanami / https://github.com/jsa-aerial/saite
+- https://github.com/cnuernber/dtype-next
+
+**** Secondary
+
+- https://github.com/generateme/inferme
+- https://github.com/MastodonC/kixi.stats
+- https://github.com/ribelo/danzig
+- https://github.com/gigasquid/clojure-mxnet
+- https://github.com/sicmutils/sicmutils
+
+*** Tutorials
+
+- https://github.com/scicloj/tutorials
+- https://github.com/ariel-ortiz/the-dawn-of-lisp
+
+*** Interoperability
+
+- R
+- Python
+- Julia
+- Scala
+
+** Project: 311 Complaints
 
 - https://www.cityofboston.gov/311/
+
+
+*** Data
+
+- https://data.boston.gov/dataset/311-service-requests
+
+#+begin_src sh
+mkdir ~/sandbox/boston-clojure-data-science/data
+wget https://data.boston.gov/dataset/8048697b-ad64-4bfc-b090-ee00169f2323/resource/f53ebccd-bc61-49f9-83db-625f209c95f5/download/tmp1bi1kh8r.csv
+mv tmp1bi1kh8r.csv ~/sandbox/boston-clojure-data-science/data/2021.csv
+#+end_src
+
+*** Exploration
+
+- pull the csv
+- use tablecloth for the import
+- covert row to map
+- review all of the keys for the data
+
+*** Task: Complaints about graffiti with submitted photos
+
+#+begin_src clojure
+  (-> complaints-data/all-data
+      (tablecloth/select-rows  (fn [row]
+                                 (and (:submitted-photo)))))
+#+end_src
+
+** Project: Stack Overflow Developer Survey
+
+** Considerations
+
+- Datatypes
+- Machine learning pipelines
