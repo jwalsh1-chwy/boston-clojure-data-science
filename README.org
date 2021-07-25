@@ -32,6 +32,7 @@ Much of the background for this meetup centered on Scicloj:
 *** Tutorials
 
 - https://github.com/scicloj/tutorials
+- https://scicloj.github.io/tablecloth/index.html#Introduction
 
 *** Interoperability
 
@@ -40,6 +41,10 @@ Much of the background for this meetup centered on Scicloj:
 - Julia - https://github.com/cnuernber/libjulia-clj
 - Scala
 - Spark - http://gorillalabs.github.io/sparkling/
+
+**** R
+
+**** Python
 
 *** Performance
 
@@ -97,14 +102,17 @@ mv tmp1bi1kh8r.csv ~/sandbox/boston-clojure-data-science/data/2021.csv
 
 ** Considerations
 
+- Developer tooling
 - Time series
 - Geo-spacial
 - Unstructured data
 - Datatypes
 - Datasets
+- Visualization
+- Grammars (https://dplyr.tidyverse.org/)
 - Models (Linear)
 - Data pipelines
-- Machine learning pipelines
+- Machine learning pipelines (https://mlr3book.mlr-org.com/compare-frameworks.html)
 
 ** Community
 
