@@ -1,8 +1,14 @@
 * boston-clojure-data-science
 
+https://www.meetup.com/Boston-Clojure-Group/events/278828212/
+
 ** Resources
 
+Much of the background for this meetup centered on Scicloj:
+
+- https://scicloj.github.io/
 - https://github.com/scicloj
+- https://github.com/scicloj/scicloj-data-science-handbook
 
 *** Libraries
 
@@ -11,6 +17,8 @@
 - https://github.com/techascent/tech.datatype
 - https://github.com/jsa-aerial/hanami / https://github.com/jsa-aerial/saite
 - https://github.com/cnuernber/dtype-next
+- https://github.com/techascent/tech.ml.dataset
+- https://github.com/uncomplicate/neanderthal
 
 **** Secondary
 
@@ -19,18 +27,41 @@
 - https://github.com/ribelo/danzig
 - https://github.com/gigasquid/clojure-mxnet
 - https://github.com/sicmutils/sicmutils
+- https://github.com/incanter/incanter
 
 *** Tutorials
 
 - https://github.com/scicloj/tutorials
-- https://github.com/ariel-ortiz/the-dawn-of-lisp
 
 *** Interoperability
 
-- R
-- Python
-- Julia
+- R - https://github.com/scicloj/clojisr/blob/master/doc/existing_libraries.md
+- Python - https://github.com/alanmarazzi/panthera
+- Julia - https://github.com/cnuernber/libjulia-clj
 - Scala
+- Spark - http://gorillalabs.github.io/sparkling/
+
+*** Performance
+
+- https://github.com/zero-one-group/geni/blob/develop/docs/simple_performance_benchmark.md#results
+
+*** Clojure
+
+- https://www.manning.com/books/get-programming-with-clojure-cx
+
+*** Data Science
+
+- https://www.coursera.org/specializations/data-science-python
+- https://www.manning.com/books/data-science-bookcamp
+
+*** Machine Learning
+
+- https://www.manning.com/liveproject/training-and-deploying-an-ml-model-as-a-microservice
+- https://www.manning.com/books/interpretable-ai
+- https://www.manning.com/liveproject/building-an-ml-pipeline-with-kubeflow
+- https://www.manning.com/books/machine-learning-systems
+- https://www.manning.com/books/real-world-machine-learning
+- https://www.manning.com/books/deep-learning-with-pytorch
 
 ** Project: 311 Complaints
 
@@ -66,5 +97,17 @@ mv tmp1bi1kh8r.csv ~/sandbox/boston-clojure-data-science/data/2021.csv
 
 ** Considerations
 
+- Time series
+- Geo-spacial
+- Unstructured data
 - Datatypes
+- Datasets
+- Models (Linear)
+- Data pipelines
 - Machine learning pipelines
+
+** Community
+
+- https://github.com/clojurebridge-boston/
+- https://www.meetup.com/Boston-Clojure-Group/
+- https://clojurebridge.org/events/2016-10-14-boston
